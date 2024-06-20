@@ -12,39 +12,45 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="css/style.css" />
-		<title>ChatBerry App</title>
+		<title>Bubbletalk</title>
 	</head>
 	<body>
-		<div class="join-container">
-			<header class="join-header">
-				<h1><i class="fas fa-smile"></i> ChatCord</h1>
-			</header>
-			<main class="join-main">
-				<form action="chat.html">
-					<div class="form-control">
-						<label for="username">Username</label>
-						<input
+		<div class="bodyy">
+            <video autoplay loop muted plays-inline class="back-video">
+				<source src="./assets/1219-144094441_medium.mp4">
+			</video>
+			<div class="join-container">
+				<header class="join-header">
+					<h1><i class="fas fa-smile"></i> Bubbletalk</h1>
+				</header>
+				<main class="join-main">
+					<form action="chat.html">
+						<div class="form-control">
+							<label for="username">Username</label>
+							<input
 							type="text"
 							name="username"
 							id="username"
 							placeholder="Enter username..."
 							required
-						/>
-					</div>
-					<div class="form-control">
-						<label for="room">Room</label>
-						<select name="room" id="room">
-							<option value="JavaScript">JavaScript</option>
-							<option value="Python">Python</option>
-							<option value="PHP">PHP</option>
-							<option value="C#">C#</option>
-							<option value="Ruby">Ruby</option>
-							<option value="Java">Java</option>
-						</select>
-					</div>
-					<button type="submit" class="btn">Join Chat</button>
-				</form>
-			</main>
+							/>
+						</div>
+						<div class="form-control">
+							<label for="room">Room</label>
+							<select name="room" id="room">
+								<option value="Room A">Room A</option>
+								<option value="Room B">Room B</option>
+								<option value="Room C">Room C</option>
+								<option value="Room D">Room D</option>
+								<option value="Room E">Room E</option>
+								<option value="Room F">Room F</option>
+							</select>
+						</div>
+						<button type="submit" class="btn">Join Chat</button>
+					</form>
+				</main>
+			</div>
 		</div>
-	</body>
-</html>
+		</body>
+		</html>
+		
